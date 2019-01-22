@@ -118,7 +118,10 @@ public class NotificationPanel extends Activity {
         }
     }
 
+
     private void requestWakeLock() {
+        return;
+        /*
         if (Build.VERSION.SDK_INT < 1) {
             Log.i(TAG, "Sæki ekki WakeLock, build version er: " + Integer.toString(Build.VERSION.SDK_INT));
             return;
@@ -137,6 +140,7 @@ public class NotificationPanel extends Activity {
         } catch (Exception e) {
             Log.e(TAG, "THROW - Fékk ekki WakeLock: " + e.getLocalizedMessage());
         }
+        */
     }
 
     private void releaseWakeLock() {
