@@ -1,6 +1,6 @@
 # media_notification
 
-Based on: https://github.com/Zeratyll/flutter_media_notification
+Copied from: https://github.com/Zeratyll/flutter_media_notification
 
 Media notification for flutter, on android
 
