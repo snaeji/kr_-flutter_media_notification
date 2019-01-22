@@ -23,7 +23,7 @@ import java.util.TimerTask;
 
 public class NotificationPanel extends Activity {
     private static final String TAG = "MediaNotificationPanel";
-    private static final int NOTIFICATION_ID = 1565461;
+    private static final int NOTIFICATION_ID = 1565462;
     Timer t;
     private Context parent;
     private NotificationManager nManager;
